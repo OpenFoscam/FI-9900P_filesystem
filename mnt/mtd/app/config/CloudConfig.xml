@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<mConfig class_id="0" tracking_level="0" version="0">
+	<isEnable>0</isEnable>
+	<statusMsg>status: set config ok</statusMsg>
+	<cloudServer>1</cloudServer>
+	<authAddr>https://www.dropbox.com/1/oauth2/authorize?response_type=code&amp;client_id=9bpwfjxoqbduf39</authAddr>
+	<code></code>
+	<accessToken></accessToken>
+	<quota>0</quota>
+	<used>0</used>
+</mConfig>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<mConfig class_id="0" tracking_level="0" version="0">
+	<isEnable>0</isEnable>
+	<statusMsg>service not enable</statusMsg>
+	<pushServer>255</pushServer>
+	<tag>00626E6B4924</tag>
+	<hasReg>0</hasReg>
+	<strFostag></strFostag>
+	<strFosGetUrlAddr></strFosGetUrlAddr>
+	<nFosGetUrlPort>0</nFosGetUrlPort>
+	<getInterval>60</getInterval>
+	<hasGetUrl>0</hasGetUrl>
+	<strFosPushAddr></strFosPushAddr>
+	<nFosPushPort>0</nFosPushPort>
+	<pushInterval>60</pushInterval>
+	<errorCode>0</errorCode>
+	<errorCnt>0</errorCnt>
+	<renew>0</renew>
+	<richMediaEnable>0</richMediaEnable>
+	<richMediaType>0</richMediaType>
+	<strFosRichMediaPushAddr></strFosRichMediaPushAddr>
+	<nFosRichMediaPushPort>0</nFosRichMediaPushPort>
+	<hasGetRichMediaUrl>0</hasGetRichMediaUrl>
+	<relativeTime>0</relativeTime>
+	<putInterval>5</putInterval>
+	<isNeedUpdateRichMediaAddr>1</isNeedUpdateRichMediaAddr>
+</mConfig>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<mConfig class_id="0" tracking_level="0" version="0">
+	<model>5057</model>
+	<modelName>FI9900P V3</modelName>
+	<language>2</language>
+	<sensorType>15</sensorType>
+	<wifiType>3</wifiType>
+	<reserve1>28</reserve1>
+	<reserve2>0</reserve2>
+	<reserve3>8</reserve3>
+	<reserve4>64</reserve4>
+	<sdFlag>1</sdFlag>
+	<outdoorFlag>1</outdoorFlag>
+	<ptFlag>0</ptFlag>
+	<zoomFlag>1</zoomFlag>
+	<rs485Flag>0</rs485Flag>
+	<ioAlarmFlag>0</ioAlarmFlag>
+	<onvifFlag>1</onvifFlag>
+	<p2pFlag>1</p2pFlag>
+	<wpsFlag>0</wpsFlag>
+	<audioFlag>1</audioFlag>
+	<talkFlag>1</talkFlag>
+	<reserveFlag1>0</reserveFlag1>
+	<reserveFlag2>0</reserveFlag2>
+	<reserveFlag3>0</reserveFlag3>
+	<reserveFlag4>0</reserveFlag4>
+	<modelVersion>74</modelVersion>
+</mConfig>

@@ -1,0 +1,16 @@
+# USAGE: tar -X /exclude.txt -cvjf /tmp/www/fulldump.bz2 /
+proc/1/clear_refs
+proc/1/task/1/clear_refs
+sys/bus/
+sys/bus/cpu/uevent
+sys/bus/cpu/drivers_probe
+sys/class/ubi/
+sys/class/slave_spi0/slave_spi0
+sys/class/firmware/timeout
+sys/dev/
+sys/devices/
+sys/fs/cgroup
+sys/mem/
+sys/module
+sys/power
+sys/kernel

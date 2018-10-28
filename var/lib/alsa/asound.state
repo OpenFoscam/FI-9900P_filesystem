@@ -1,0 +1,324 @@
+state.S2LMKIWI {
+	control.1 {
+		iface MIXER
+		name 'Mic Gain Control'
+		value 43
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 71'
+			dbmin 600
+			dbmax 46750
+			dbvalue.0 28550
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'Input Digital Volume'
+		value 90
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 241'
+			dbmin -9999999
+			dbmax 3480
+			dbvalue.0 -2107
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Speaker Output Volume'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 3'
+			dbmin 640
+			dbmax 1480
+			dbvalue.0 640
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'Digital Output Volume'
+		value 220
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 255'
+			dbmin -9999999
+			dbmax 3750
+			dbvalue.0 2000
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'High Path Filter 1'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 3'
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'High Path Filter 2'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.7 {
+		iface MIXER
+		name 'Low Path Filter'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.8 {
+		iface MIXER
+		name '5 Band Equalizer 1'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.9 {
+		iface MIXER
+		name '5 Band Equalizer 2'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.10 {
+		iface MIXER
+		name '5 Band Equalizer 3'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.11 {
+		iface MIXER
+		name '5 Band Equalizer 4'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.12 {
+		iface MIXER
+		name '5 Band Equalizer 5'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.13 {
+		iface MIXER
+		name 'Auto Level Control 1'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.14 {
+		iface MIXER
+		name 'Soft Mute Control'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.15 {
+		iface MIXER
+		name 'PMMP Value'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.16 {
+		iface MIXER
+		name 'MPSEL Value'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.17 {
+		iface MIXER
+		name 'Stereo Emphasis Filter Control'
+		value 'Stereo Emphasis Filter OFF'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'Stereo Emphasis Filter OFF'
+			item.1 'Stereo Emphasis Filter ON'
+		}
+	}
+	control.18 {
+		iface MIXER
+		name 'Mic and Lin Switch'
+		value LIN
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 LIN
+			item.1 MIC
+		}
+	}
+	control.19 {
+		iface MIXER
+		name 'MIC MUX'
+		value AMIC
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 AMIC
+			item.1 DMIC
+		}
+	}
+	control.20 {
+		iface MIXER
+		name 'PFDAC MUX'
+		value SDTI
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 SDTI
+			item.1 PFIL
+			item.2 SPMIX
+		}
+	}
+	control.21 {
+		iface MIXER
+		name 'PFSDO MUX'
+		value PFIL
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 ADC
+			item.1 PFIL
+		}
+	}
+	control.22 {
+		iface MIXER
+		name 'PFIL MUX'
+		value ADC
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 SDTI
+			item.1 ADC
+		}
+	}
+	control.23 {
+		iface MIXER
+		name 'SPKLO MUX'
+		value Speaker
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 Speaker
+			item.1 Line
+		}
+	}
+	control.24 {
+		iface MIXER
+		name 'Mic Bias MUX'
+		value LIN1
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 LIN1
+			item.1 LIN2
+		}
+	}
+	control.25 {
+		iface MIXER
+		name 'LIN1 MUX'
+		value LIN1
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 LIN1
+			item.1 'Mic Bias'
+		}
+	}
+	control.26 {
+		iface MIXER
+		name 'RIN MUX'
+		value RIN1
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 RIN1
+			item.1 RIN2
+			item.2 RIN3
+		}
+	}
+	control.27 {
+		iface MIXER
+		name 'LIN MUX'
+		value LIN1
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 LIN1
+			item.1 LIN2
+			item.2 LIN3
+		}
+	}
+	control.28 {
+		iface MIXER
+		name 'SPKLO Mixer DACSL'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}

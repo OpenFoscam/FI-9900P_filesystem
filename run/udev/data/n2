@@ -1,0 +1,7 @@
+I:77087
+E:ID_NET_DRIVER=ambarella-eth
+E:ID_NET_NAME_MAC=enx000001020304
+E:ID_PATH=platform-e000e000.ethernet
+E:ID_PATH_TAG=platform-e000e000_ethernet
+E:SYSTEMD_ALIAS=/sys/subsystem/net/devices/eth0
+G:systemd

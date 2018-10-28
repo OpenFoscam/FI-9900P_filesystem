@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<mConfig class_id="0" tracking_level="0" version="0">
+	<isEnable>0</isEnable>
+	<iProperty>1</iProperty>
+	<isEnableAudio>1</isEnableAudio>
+	<isMainStream>0</isMainStream>
+	<strStreamId></strStreamId>
+	<strPublishToken>581f6d39741ef6a082e675e3c666299f</strPublishToken>
+	<strGuid>f1d920ca34a811e3be8c286ed494a71e</strGuid>
+	<strDevId></strDevId>
+	<strAccessToken></strAccessToken>
+	<strRefreshToken></strRefreshToken>
+	<strDevType>devtype</strDevType>
+	<strExtJson>extjson</strExtJson>
+</mConfig>

@@ -1,0 +1,6 @@
+I:453124
+E:ID_PATH=platform-sound.3
+E:ID_PATH_TAG=platform-sound_3
+E:SOUND_INITIALIZED=1
+E:SYSTEMD_WANTS=sound.target
+G:systemd
